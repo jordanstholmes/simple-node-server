@@ -7,7 +7,7 @@ module.exports = {
   post: (req, res) => {
     const { name, message } = req.body;
     const cohort = req.params.cohort.toLowerCase();
-    const cohorts = ['hrsf110', 'hrsf111'];
+    const cohorts = ['hrsf113'];
     if (
       !name ||
       !message ||
